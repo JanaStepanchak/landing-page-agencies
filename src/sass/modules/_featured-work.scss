@@ -1,0 +1,13 @@
+.featured-works-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+      flex-wrap: wrap; 
+}
+.featured-works-blok{
+/*    width: 30%;*/
+    width: 360px;
+    height: 360px;
+    margin-bottom: 1.5%;
+    background-color:#ff5c36 ;
+}

@@ -1,55 +1,59 @@
-$colorOreng: rgb(0, 0, 0);
-$colorOreng: rgb(0, 0, 0.6);
-$colorOreng: rgb(255, 255, 255);
-$colorOreng: rgb(255, 255, 255, 0.749);
-$colorOreng: rgb(255, 255, 255, 0.902);
-$colorOreng: rgba(252, 103, 68, 0.8);
-$colorOreng: rgba(252, 103, 68, 0.702);
-$colorOreng: rgba(252, 103, 68, 0.941);
-$color2: rgba(65, 65, 65, 0.702);
-$color2: rgba(0, 0, 0, 0.702);
-$color: rgba(255, 243, 240, 0.302);
-$color: rgb(255, 239, 59);
-$color: rgba(32, 32, 32, 0.851);
-$color: rgba(255, 114, 76, 0.902);
-$color: rgba(252, 103, 68, 0.8);
-$color2: rgba(255, 92, 54, 0.902);
-$color: rgba(0, 0, 0, 0.651);
- $background-color: rgb(247, 71, 112);
-$background-color: rgb(255, 92, 54);
-$background-color: rgb(23, 15, 28);
- $background-color: rgb(129, 126, 255);
-$background-color: rgb(192, 73, 248);
-$background-color: rgb(78, 178, 247);
- $background-color: rgb(251, 251, 251);
-$background-color: rgb(112, 112, 112);
-$background-color: rgb(255, 110, 71);
-$background-color: rgb(129, 127, 126);
-$background-color: rgb(255, 243, 240);
-$background-color: rgb(255, 243, 240);
-$background-color: rgb(255, 92, 54);
-$background-color: rgb(251, 251, 251);
-$background-color: rgb(224, 224, 224);
-$background-color: rgb(251, 251, 251);
-$background-color: rgb(253, 253, 253);
-$background-color: rgb(211, 211, 211);
-$background-color: rgb(247, 247, 247);
-$border-color: rgb(1, 2, 2);
-$color: rgba(4, 4, 4, 0.6);
-$box-shadow: 0px 0px 14px 0px rgba(20, 20, 21, 0.05);
+//$colorOreng: rgb(0, 0, 0);
+//$colorOreng: rgb(0, 0, 0.6);
+//$colorOreng: rgb(255, 255, 255);
+//$colorOreng: rgb(255, 255, 255, 0.749);
+//$colorOreng: rgb(255, 255, 255, 0.902);
+//$colorOreng: rgba(252, 103, 68, 0.8);
+//$colorOreng: rgba(252, 103, 68, 0.702);
+//$colorOreng: rgba(252, 103, 68, 0.941);
+//$color2: rgba(65, 65, 65, 0.702);
+//$color2: rgba(0, 0, 0, 0.702);
+//$color: rgba(255, 243, 240, 0.302);
+//$color: rgb(255, 239, 59);
+//$color: rgba(32, 32, 32, 0.851);
+//$color: rgba(255, 114, 76, 0.902);
+//$color: rgba(252, 103, 68, 0.8);
+//$color2: rgba(255, 92, 54, 0.902);
+//$color: rgba(0, 0, 0, 0.651);
+// $background-color: rgb(247, 71, 112);
+//$background-color: rgb(255, 92, 54);
+//$background-color: rgb(23, 15, 28);
+// $background-color: rgb(129, 126, 255);
+//$background-color: rgb(192, 73, 248);
+//$background-color: rgb(78, 178, 247);
+// $background-color: rgb(251, 251, 251);
+//$background-color: rgb(112, 112, 112);
+//$background-color: rgb(255, 110, 71);
+//$background-color: rgb(129, 127, 126);
+//$background-color: rgb(255, 243, 240);
+//$background-color: rgb(255, 243, 240);
+//$background-color: rgb(255, 92, 54);
+//$background-color: rgb(251, 251, 251);
+//$background-color: rgb(224, 224, 224);
+//$background-color: rgb(251, 251, 251);
+//$background-color: rgb(253, 253, 253);
+//$background-color: rgb(211, 211, 211);
+//$background-color: rgb(247, 247, 247);
+//$border-color: rgb(1, 2, 2);
+//$color: rgba(4, 4, 4, 0.6);
+//$box-shadow: 0px 0px 14px 0px rgba(20, 20, 21, 0.05);
 
 
-@media screen and (max-width: 768px) {}
+//@media screen and (max-width: 768px) {}
+//
+//
+//@media screen and (min-width: 768px) {}
+//
+//@media screen and (min-width: 960px) {}
+//
+//@media screen and (min-width: 1200px) {}
 
-
-@media screen and (min-width: 768px) {
-
-}
-
-@media screen and (min-width: 960px) {
-
-}
-
-@media screen and (min-width: 1200px) {
-
+@media screen and (min-width: 1440px) {
+	body{
+	 display: flex;
+		justify-content: center;
+	}
+	
+	.wrapper{
+		width:1440px;}
 }
