@@ -1,1 +1,49 @@
-.work-procces
+.work-procces-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+      flex-wrap: wrap; 
+
+}
+
+.work-procces-blok {
+width: 23%;
+    padding-bottom: 3%;
+  box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.work-procces-div{
+width: 100%;}
+
+.blok-background1{ background-color: rgb(78, 178, 247);}
+.blok-background2{ background-color: rgb(192, 73, 248);}
+.blok-background3{ background-color: rgb(129, 126, 255);}
+.blok-background4{ background-color: rgb(247, 71, 112);}
+
+.work-procces-icon {font-size: 50px;
+  font-family: "FontAwesome";
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 0.16;
+  text-align: center;}
+
+.work-procces-h3 {
+    font-size: 20px;
+    font-family: "OpenSans";
+    color: rgba(255, 255, 255, 0.902);
+    line-height: 2.1;
+    text-align: center;
+}
+
+.work-procces-span {
+    font-size: 15px;
+    font-family: "OpenSans";
+    color: rgba(255, 255, 255, 0.749);
+/*    padding: 0 20%;*/
+    line-height: 1.467;
+    text-align: center;
+}
+.work-procces-know-more{position: absolute;
+    bottom: -17%;
+    left: 6%;}
