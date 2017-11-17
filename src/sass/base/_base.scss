@@ -1,7 +1,25 @@
 body {
-        margin: 0;
+     margin: 0;
     font-family: sourceSansPro, openSans, Tahoma, Geneva, sans-serif;
 }
+
+
+header, section, footer {
+    display: block;
+//    padding: 0 5.5%;
+    padding: 120px 5.5%;
+/*    width: 79%;*/
+}
+
+.work-procces-box , .featured-works-box , .team-chinen-skills-box
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+      flex-wrap: wrap; 
+
+}
+
 
 .know-more {
     width: 230px;
@@ -25,12 +43,6 @@ spam{
     letter-spacing: 5px}
 
 
-header, section, footer {
-    display: block;
-    padding: 0 5.5%;
-/*    padding: 0 10.5%;*/
-/*    width: 79%;*/
-}
 
 .title-h2 {
     font-size: 50px;
@@ -51,3 +63,9 @@ header, section, footer {
     line-height: 1.5;
     text-align: center;
 }
+
+
+
+
+
+

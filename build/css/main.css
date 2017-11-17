@@ -2,6 +2,22 @@ body {
   margin: 0;
   font-family: sourceSansPro, openSans, Tahoma, Geneva, sans-serif; }
 
+header, section, footer {
+  display: block;
+  padding: 120px 5.5%; }
+
+.work-procces-box, .featured-works-box, .team-chinen-skills-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
 .know-more {
   width: 230px;
   height: 55px;
@@ -18,10 +34,6 @@ body {
 spam {
   font-size: 20px;
   letter-spacing: 5px; }
-
-header, section, footer {
-  display: block;
-  padding: 0 5.5%; }
 
 .title-h2 {
   font-size: 50px;
@@ -217,18 +229,6 @@ template {
 [hidden] {
   display: none; }
 
-.work-procces-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
-
 .work-procces-blok {
   width: 23%;
   padding-bottom: 3%;
@@ -283,18 +283,6 @@ template {
   position: absolute;
   bottom: -17%;
   left: 6%; }
-
-.featured-works-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
 
 .featured-works-blok {
   width: 360px;
