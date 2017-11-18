@@ -11,13 +11,13 @@ header, section, footer {
 /*    width: 79%;*/
 }
 
-.work-procces-box , .featured-works-box , .team-chinen-skills-box
+.work-procces-box , .featured-works-box , .team-chinen-skills-box, .services-box
 {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
       flex-wrap: wrap; 
-
+  font-family: "OpenSans";
 }
 
 
