@@ -292,6 +292,8 @@ template {
   background-color: #ff5c36; }
 
 .red-line {
+  margin-top: -3.5em;
+  margin-bottom: 2em;
   color: rgba(252, 103, 68, 0.8); }
 
 img {
@@ -338,5 +340,4 @@ img {
 
 .services-h3 {
   font-size: 30px;
-  color: rgba(0, 0, 0, 0.749);
-  line-height: none; }
+  color: rgba(0, 0, 0, 0.749); }
