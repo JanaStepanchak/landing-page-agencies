@@ -17,7 +17,7 @@ background-position: center;
 
 .services-blok2{width: 40%;
     margin: 0 10%;
-    display: inline-block;
+//    display: inline-block;
 font-size: 16px;
   font-family: "OpenSans";
   color: rgba(0, 0, 0, 0.702);
@@ -27,7 +27,8 @@ font-size: 16px;
 
 .services-blok3{width: 30%;
     margin: 30px 0;
-    display: inline-block;}
+//    display: inline-block;
+}
 
 .services-icon{
     width: 80px;
@@ -46,3 +47,6 @@ font-size: 16px;
 //  text-align: center;
 }
 
+#services-slide11, #services-slide21{
+display: block;
+}
