@@ -271,14 +271,14 @@ template {
 .work-procces-icon {
   font-size: 50px;
   font-family: "FontAwesome";
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
   line-height: 0.16;
   text-align: center; }
 
 .work-procces-h3 {
   font-size: 20px;
   font-family: "OpenSans";
-  color: rgba(255, 255, 255, 0.902);
+  color: #fff;
   line-height: 2.1;
   text-align: center; }
 
@@ -286,7 +286,7 @@ template {
   margin: 0 5%;
   font-size: 15px;
   font-family: "OpenSans";
-  color: rgba(255, 255, 255, 0.749);
+  color: #fff;
   line-height: 1.467;
   text-align: center; }
 

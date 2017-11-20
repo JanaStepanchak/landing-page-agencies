@@ -1,52 +1,66 @@
-
-
 .work-procces-blok {
 	width: 23%;
 	padding-bottom: 3%;
-    box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21);
-    display: flex;
-    flex-direction: column;
-    position: relative;
+	box-shadow: 0px 0px 35px 0px $colorTransparentGray20;
+	display: flex;
+	flex-direction: column;
+	position: relative;
 }
-.work-procces-div{
-width: 90%;
-display: block;}
 
-.work-procces-div2{
-width: 100%;
-//padding: 0 10%;
-position: relative;}
+.work-procces-div {
+	width: 90%;
+	display: block;
+}
 
-.blok-background1{ background-color: rgb(78, 178, 247);}
-.blok-background2{ background-color: rgb(192, 73, 248);}
-.blok-background3{ background-color: rgb(129, 126, 255);}
-.blok-background4{ background-color: rgb(247, 71, 112);}
+.work-procces-div2 {
+	width: 100%;
+	//padding: 0 10%;
+	position: relative;
+}
 
-.work-procces-icon {font-size: 50px;
-  font-family: "FontAwesome";
-  color: rgba(255, 255, 255, 0.8);
-  line-height: 0.16;
-  text-align: center;}
+.blok-background1 {
+	background-color: $colorLightBlue;
+}
+
+.blok-background2 {
+	background-color: $colorViolet;
+}
+
+.blok-background3 {
+	background-color: $colorBlue;
+}
+
+.blok-background4 {
+	background-color: $colorTerracotta;
+}
+
+.work-procces-icon {
+	font-size: 50px;
+	font-family: "FontAwesome";
+	color: $colorWhite;
+	line-height: 0.16;
+	text-align: center;
+}
 
 .work-procces-h3 {
-    font-size: 20px;
-    font-family: "OpenSans";
-    color: rgba(255, 255, 255, 0.902);
-    line-height: 2.1;
-    text-align: center;
+	font-size: 20px;
+	font-family: "OpenSans";
+	color: $colorWhite;
+	line-height: 2.1;
+	text-align: center;
 }
 
 .work-procces-span {
-	
 	margin: 0 5%;
-    font-size: 15px;
-    font-family: "OpenSans";
-    color: rgba(255, 255, 255, 0.749);
-    line-height: 1.467;
-    text-align: center;
+	font-size: 15px;
+	font-family: "OpenSans";
+	color: $colorWhite;
+	line-height: 1.467;
+	text-align: center;
 }
-.work-procces-know-more{
-	 width: 80%;
+
+.work-procces-know-more {
+	width: 80%;
 	margin: 10px 10%;
 	position: absolute;
-   }
+}
