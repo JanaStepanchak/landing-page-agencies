@@ -17,7 +17,7 @@ background-position: center;
 
 .services-blok2{width: 40%;
     margin: 0 10%;
-//    display: inline-block;
+  display: none;
 font-size: 16px;
   font-family: "OpenSans";
   color: rgba(0, 0, 0, 0.702);
@@ -27,18 +27,26 @@ font-size: 16px;
 
 .services-blok3{width: 30%;
     margin: 30px 0;
-//    display: inline-block;
+    display: none;
 }
 
 .services-icon{
     width: 80px;
     height: 80px;
-    margin: 3px;
-    background: #ffffff ;
+    margin: 7px;
+    background: #f1f1f0 ;
     box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.services-icon:hover{
+	background: #fff ;
+	width: 82px;
+    height: 82px;
+	margin: 3px;
+	
 }
 
 .services-h3 {
