@@ -1,3 +1,14 @@
+@media screen and (min-width: 1440px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .wrapper {
+    width: 1440px; } }
+
 body {
   margin: 0;
   font-family: sourceSansPro, openSans, Tahoma, Geneva, sans-serif; }
@@ -23,11 +34,11 @@ header, section, footer {
 .know-more {
   width: 230px;
   height: 55px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 25px;
   font-size: 16px;
   font-family: "OpenSans";
-  color: rgba(0, 0, 0, 0.702);
+  color: rgba(0, 0, 0, 0.75);
   line-height: 2.563;
   text-align: center;
   -webkit-box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21);
@@ -43,7 +54,7 @@ spam {
 .title-h2 {
   font-size: 50px;
   font-family: "OpenSans";
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.75);
   line-height: 0.915;
   text-align: center; }
 
@@ -56,17 +67,6 @@ spam {
   color: rgba(65, 65, 65, 0.702);
   line-height: 1.5;
   text-align: center; }
-
-@media screen and (min-width: 1440px) {
-  body {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-  .wrapper {
-    width: 1440px; } }
 
 @font-face {
   font-family: 'openSans';
@@ -322,7 +322,7 @@ img {
   display: none;
   font-size: 16px;
   font-family: "OpenSans";
-  color: rgba(0, 0, 0, 0.702);
+  color: rgba(0, 0, 0, 0.75);
   line-height: 1.563;
   text-align: left; }
 
@@ -356,7 +356,7 @@ img {
 
 .services-h3 {
   font-size: 30px;
-  color: rgba(0, 0, 0, 0.749); }
+  color: rgba(0, 0, 0, 0.75); }
 
 #services-slide11, #services-slide21 {
   display: block; }
