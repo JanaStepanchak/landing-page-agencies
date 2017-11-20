@@ -15,7 +15,7 @@ body {
 
 header, section, footer {
   display: block;
-  padding: 120px 5.5%;
+  padding: 100px 5.5%;
   background: #fff; }
 
 .work-procces-box, .featured-works-box, .team-chinen-skills-box, .services-box {
@@ -425,3 +425,71 @@ img {
 
 .clients-said-slide {
   width: 100%; }
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.logotype {
+  width: 135px;
+  height: 35px;
+  margin: 0 5px; }
+
+footer {
+  background-color: #f7f7f7;
+  padding: 50px  0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.footer-social-box {
+  width: 100%;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.footer-social {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #d3d3d3;
+  text-align: center; }
+
+.footer-social:hover {
+  border-radius: 50%;
+  background-color: #ff6e47;
+  -webkit-box-shadow: 0px 0px 23px 0px rgba(20, 20, 21, 0.29);
+          box-shadow: 0px 0px 23px 0px rgba(20, 20, 21, 0.29); }
+
+.footer-social-p {
+  font-size: 16px;
+  font-family: "FontAwesome";
+  color: #fff;
+  line-height: 1.425;
+  -moz-transform: matrix(1.35602, 0, 0, 1.33333, 0, 0);
+  -webkit-transform: matrix(1.35602, 0, 0, 1.33333, 0, 0);
+  -ms-transform: matrix(1.35602, 0, 0, 1.33333, 0, 0); }
+
+.footer-social-deviserweb {
+  font-size: 17px;
+  font-family: "OpenSans";
+  color: rgba(4, 4, 4, 0.6);
+  line-height: 2.691;
+  text-align: center; }
