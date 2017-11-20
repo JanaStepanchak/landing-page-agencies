@@ -4,7 +4,8 @@ body {
 
 header, section, footer {
   display: block;
-  padding: 120px 5.5%; }
+  padding: 120px 5.5%;
+  background: #fff; }
 
 .work-procces-box, .featured-works-box, .team-chinen-skills-box, .services-box {
   display: -webkit-box;
@@ -248,7 +249,12 @@ template {
   position: relative; }
 
 .work-procces-div {
-  width: 100%; }
+  width: 90%;
+  display: block; }
+
+.work-procces-div2 {
+  width: 100%;
+  position: relative; }
 
 .blok-background1 {
   background-color: #4eb2f7; }
@@ -277,6 +283,7 @@ template {
   text-align: center; }
 
 .work-procces-span {
+  margin: 0 5%;
   font-size: 15px;
   font-family: "OpenSans";
   color: rgba(255, 255, 255, 0.749);
@@ -284,9 +291,9 @@ template {
   text-align: center; }
 
 .work-procces-know-more {
-  position: absolute;
-  bottom: -17%;
-  left: 6%; }
+  width: 80%;
+  margin: 10px 10%;
+  position: absolute; }
 
 .featured-works-blok {
   width: 360px;
@@ -353,3 +360,10 @@ img {
 
 #services-slide11, #services-slide21 {
   display: block; }
+
+.star {
+  width: 12px;
+  height: 12px; }
+
+.clients-said-rectangle {
+  width: 50%; }
