@@ -18,7 +18,10 @@ justify-content: center;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	
+}
+
+.clients-said-box{
+    position: relative;
 }
 
 #services-switch-l, #services-switch-r{
@@ -30,12 +33,20 @@ justify-content: center;
 	box-shadow: 0px 0px 35px 0px $colorTransparentGray20;
 	color: $colorTransparentBlack75;
 	position: absolute;
+    top: 108px;
 	text-align: center;
 }
 #services-switch-l:hover, #services-switch-r:hover{
 	background-color: $colorOR08;
     color: $colorWhite;
 }
+#services-switch-l{
+    left: -25px;
+}
+#services-switch-r{
+   right: -25px; 
+}
+
 
 #clients-said-slide1{
 	width: 100%;

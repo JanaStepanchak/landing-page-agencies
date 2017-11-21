@@ -7,7 +7,7 @@ header,
 section,
 footer {
 	display: block;
-	padding: 120px 5.5%;
+	padding: 100px 5.5%;
 	background: $colorWhite;
 }
 
@@ -36,7 +36,7 @@ footer {
 }
 
 .know-more:hover {
-	background: #ffe3de;
+	background: $colorOR08;
 }
 
 spam {
