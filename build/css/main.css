@@ -397,12 +397,21 @@ img {
       flex-wrap: wrap; }
 
 .clients-said-box {
+  margin-top: 140px;
+  position: relative;
+  font-size: 17px;
+  font-family: "Source Sans Pro";
+  color: rgba(0, 0, 0, 0.702);
+  line-height: 1.588;
+  text-align: center; 
   position: relative; }
 
 #services-switch-l, #services-switch-r {
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  font-size: 25px;
+  line-height: 0.1;
   background-color: #fff;
   -webkit-box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21);
           box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21);
@@ -434,6 +443,44 @@ img {
   display: none; }
 
 .clients-said-slide {
+  width: 100%;
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+#services-switch1, #services-switch2, #services-switch3 {
+  width: 20px;
+  height: 5px;
+  margin: 0 4px;
+  border-radius: 2px;
+  background-color: #e0e0e0; }
+
+#services-switch1 {
+  background-color: rgba(252, 103, 68, 0.8); }
+
+.clients-said-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21);
+          box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21);
+  position: absolute;
+  top: -55px; }
+
+.clients-said-p {
+  margin: 95px 50px 0 50px; }
+
+.fatty {
+  font-weight: 900; }
+
+.cursive {
+  font-weight: normal;
+  font-style: italic; 
   width: 100%; }
 
 .logo {
