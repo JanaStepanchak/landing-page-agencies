@@ -403,7 +403,8 @@ img {
   font-family: "Source Sans Pro";
   color: rgba(0, 0, 0, 0.702);
   line-height: 1.588;
-  text-align: center; }
+  text-align: center; 
+  position: relative; }
 
 #services-switch-l, #services-switch-r {
   width: 50px;
@@ -479,7 +480,8 @@ img {
 
 .cursive {
   font-weight: normal;
-  font-style: italic; }
+  font-style: italic; 
+  width: 100%; }
 
 .logo {
   display: -webkit-box;
