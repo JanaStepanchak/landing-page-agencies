@@ -15,11 +15,14 @@ body {
 
 header, section, footer {
   display: block;
-  padding: 0 5.5%;
+  padding: 0px 5.5%;
   background: #fff; }
 
 header {
   padding: 80px 5.5%; }
+
+section {
+  margin-bottom: 170px; }
 
 .work-procces-box, .featured-works-box, .team-chinen-skills-box, .services-box {
   display: -webkit-box;
@@ -33,6 +36,12 @@ header {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   font-family: "OpenSans"; }
+
+.work-procces-box {
+  padding-bottom: 25px; }
+
+.section-title {
+  margin: 145px 0 100px 0; }
 
 .know-more {
   width: 230px;
@@ -54,8 +63,10 @@ spam {
   font-size: 20px;
   letter-spacing: 5px; }
 
+h2 {
+  margin: 0; }
+
 .title-h2 {
-  margin-top: 140px;
   font-size: 50px;
   font-family: "OpenSans";
   color: #6e6e6e;
@@ -253,23 +264,14 @@ template {
   -ms-flex-line-pack: end;
       align-content: flex-end; }
 
-h2 {
-  padding: 10px; }
-
-.h2-title {
-  font-size: 50px;
-  font-family: "OpenSans";
-  color: #6e6e6e;
-  line-height: 0.915;
-  text-align: center; }
+.heder-title-h2 {
+  margin-top: 140px; }
 
 .logot {
   width: 150px;
   height: 55px;
+  padding: 10px;
   border: solid 3px #706b73; }
-
-.header-subtitle {
-  max-width: 715px; }
 
 .menu-ul {
   border: none; }

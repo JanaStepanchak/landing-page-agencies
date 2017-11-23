@@ -7,12 +7,13 @@ header,
 section,
 footer {
 	display: block;
-	padding: 0 5.5%;
+	padding:0px 5.5%;
 	background: $colorWhite;
 }
 header{
 padding: 80px 5.5%;
 }
+section{margin-bottom: 170px;}
 .work-procces-box,
 .featured-works-box,
 .team-chinen-skills-box,
@@ -23,6 +24,11 @@ padding: 80px 5.5%;
 	flex-wrap: wrap;
 	font-family: "OpenSans";
 }
+
+.work-procces-box{padding-bottom: 25px;}
+
+.section-title{
+margin: 145px 0 100px 0;}
 
 .know-more {
 	width: 230px;
@@ -46,8 +52,10 @@ spam {
 	letter-spacing: 5px
 }
 
+h2{
+margin: 0;}
+
 .title-h2 {
-	margin-top: 140px;
 	font-size: 50px;
 	font-family: "OpenSans";
 	color: $colorTransparentBlack75;
