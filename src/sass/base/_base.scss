@@ -7,10 +7,12 @@ header,
 section,
 footer {
 	display: block;
-	padding: 100px 5.5%;
+	padding: 0 5.5%;
 	background: $colorWhite;
 }
-
+header{
+padding: 80px 5.5%;
+}
 .work-procces-box,
 .featured-works-box,
 .team-chinen-skills-box,
@@ -45,6 +47,7 @@ spam {
 }
 
 .title-h2 {
+	margin-top: 140px;
 	font-size: 50px;
 	font-family: "OpenSans";
 	color: $colorTransparentBlack75;

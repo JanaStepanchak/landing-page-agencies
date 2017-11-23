@@ -15,8 +15,11 @@ body {
 
 header, section, footer {
   display: block;
-  padding: 100px 5.5%;
+  padding: 0 5.5%;
   background: #fff; }
+
+header {
+  padding: 80px 5.5%; }
 
 .work-procces-box, .featured-works-box, .team-chinen-skills-box, .services-box {
   display: -webkit-box;
@@ -38,7 +41,7 @@ header, section, footer {
   border-radius: 25px;
   font-size: 16px;
   font-family: "OpenSans";
-  color: 6e6e6e;
+  color: #6e6e6e;
   line-height: 2.563;
   text-align: center;
   -webkit-box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21);
@@ -52,9 +55,10 @@ spam {
   letter-spacing: 5px; }
 
 .title-h2 {
+  margin-top: 140px;
   font-size: 50px;
   font-family: "OpenSans";
-  color: 6e6e6e;
+  color: #6e6e6e;
   line-height: 0.915;
   text-align: center; }
 
@@ -238,6 +242,63 @@ template {
 [hidden] {
   display: none; }
 
+.logot-menu {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: end;
+      align-content: flex-end; }
+
+h2 {
+  padding: 10px; }
+
+.h2-title {
+  font-size: 50px;
+  font-family: "OpenSans";
+  color: #6e6e6e;
+  line-height: 0.915;
+  text-align: center; }
+
+.logot {
+  width: 150px;
+  height: 55px;
+  border: solid 3px #706b73; }
+
+.header-subtitle {
+  max-width: 715px; }
+
+.menu-ul {
+  border: none; }
+
+li {
+  min-width: 50px;
+  height: 10px;
+  border-bottom: solid 3px #706b73;
+  list-style: none; }
+
+.menu-ul-none {
+  display: none; }
+
+form {
+  width: 375px;
+  height: 390px;
+  padding: 0 40px;
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 57px 0px rgba(20, 20, 21, 0.2);
+          box-shadow: 0px 0px 57px 0px rgba(20, 20, 21, 0.2); }
+
+input {
+  width: 100%;
+  border: none; }
+
+.div-input {
+  border-bottom: solid 3px black; }
+
 .work-procces-blok {
   width: 23%;
   padding-bottom: 3%;
@@ -326,7 +387,7 @@ img {
   display: none;
   font-size: 16px;
   font-family: "OpenSans";
-  color: 6e6e6e;
+  color: #6e6e6e;
   line-height: 1.563;
   text-align: left; }
 
@@ -360,7 +421,7 @@ img {
 
 .services-h3 {
   font-size: 30px;
-  color: 6e6e6e; }
+  color: #6e6e6e; }
 
 #services-slide11, #services-slide21 {
   display: block; }
@@ -414,7 +475,7 @@ img {
   background-color: #fff;
   -webkit-box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21);
           box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21);
-  color: 6e6e6e;
+  color: #6e6e6e;
   position: absolute;
   top: 108px;
   text-align: center; }

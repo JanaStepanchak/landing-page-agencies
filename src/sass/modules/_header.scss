@@ -1,0 +1,57 @@
+.logot-menu {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-content: flex-end;
+}
+
+h2 {
+	padding: 10px;
+}
+
+.h2-title {
+	font-size: 50px;
+	font-family: "OpenSans";
+	color: $colorTransparentBlack75;
+	line-height: 0.915;
+	text-align: center;
+}
+
+.logot {
+	width: 150px;
+	height: 55px;
+	border: solid 3px #706b73;
+}
+
+.header-subtitle {
+	max-width: 715px;
+}
+
+.menu-ul{border: none;}
+
+li{
+	min-width: 50px;
+	height: 10px;
+	border-bottom: solid 3px #706b73;
+	list-style: none;
+}
+
+.menu-ul-none{display: none;}
+
+form {
+	width: 375px;
+	height: 390px;
+	padding: 0 40px;
+	border-radius: 2px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 57px 0px rgba(20, 20, 21, 0.2);
+}
+
+input {
+	width: 100%;
+	border: none;
+}
+
+.div-input {
+	border-bottom: solid 3px black;
+}
