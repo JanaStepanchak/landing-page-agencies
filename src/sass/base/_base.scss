@@ -44,7 +44,8 @@ margin: 145px 0 100px 0;}
 }
 
 .know-more:hover {
-	background: $colorOR08;
+	background: $backColorOR;
+   color: $colorWhite;
 }
 
 spam {
@@ -64,7 +65,7 @@ margin: 0;}
 }
 
 .title-orange {
-	color: $colorOR08;
+	color: $backColorOR;
 }
 
 .subtitle {
