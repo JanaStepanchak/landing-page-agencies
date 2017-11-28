@@ -182,3 +182,9 @@ setInterval(getE('services-switch-r').onclick = function () {
 	}
 	check = 0}
 			,5000);
+
+
+
+for(var i=1;i<18;i=i+2){
+document.querySelectorAll('section')[i].style.background ='#f5f5f5';
+}

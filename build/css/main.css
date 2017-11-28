@@ -1,3 +1,7 @@
+@media screen and (max-width: 490px) {
+  form {
+    width: 100%; } }
+
 @media screen and (min-width: 1440px) {
   body {
     display: -webkit-box;
@@ -5,84 +9,13 @@
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
   .wrapper {
-    width: 1440px; } }
-
-body {
-  margin: 0;
-  font-family: sourceSansPro, openSans, Tahoma, Geneva, sans-serif; }
-
-header, section, footer {
-  display: block;
-  padding: 0px 5.5%;
-  background: #fff; }
-
-header {
-  padding: 80px 5.5%; }
-
-section {
-  margin-bottom: 170px; }
-
-.work-procces-box, .featured-works-box, .team-chinen-skills-box, .services-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  font-family: "OpenSans"; }
-
-.work-procces-box {
-  padding-bottom: 25px; }
-
-.section-title {
-  margin: 145px 0 100px 0; }
-
-.know-more {
-  width: 230px;
-  height: 55px;
-  background-color: #fff;
-  border-radius: 25px;
-  font-size: 16px;
-  font-family: "OpenSans";
-  color: #6e6e6e;
-  line-height: 2.563;
-  text-align: center;
-  -webkit-box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21);
-          box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21); }
-
-.know-more:hover {
-  background: #ff5c36;
-  color: #fff; }
-
-spam {
-  font-size: 20px;
-  letter-spacing: 5px; }
-
-h2 {
-  margin: 0; }
-
-.title-h2 {
-  font-size: 50px;
-  font-family: "OpenSans";
-  color: #6e6e6e;
-  line-height: 0.915;
-  text-align: center; }
-
-.title-orange {
-  color: #ff5c36; }
-
-.subtitle {
-  font-size: 16px;
-  font-family: "OpenSans";
-  color: rgba(65, 65, 65, 0.702);
-  line-height: 1.5;
-  text-align: center; }
+    width: 1439px; } }
 
 @font-face {
   font-family: 'openSans';
@@ -253,6 +186,87 @@ template {
 
 [hidden] {
   display: none; }
+
+body {
+  margin: 0;
+  font-family: sourceSansPro, openSans, Tahoma, Geneva, sans-serif; }
+
+header, section, footer {
+  width: 100%;
+  padding: 145px 0 170px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background: #fff; }
+
+header {
+  padding-top: 80px;
+  background: #fbfbfb; }
+
+.work-procces-box, .featured-works-box, .team-chinen-skills-box, .services-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: "OpenSans"; }
+
+.work-procces-box {
+  padding-bottom: 25px; }
+
+.section-title {
+  margin: 145px 0 100px 0; }
+
+.know-more {
+  width: 230px;
+  height: 55px;
+  background-color: #fff;
+  border-radius: 25px;
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: #6e6e6e;
+  line-height: 2.563;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21);
+          box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21); }
+
+.know-more:hover {
+  background: #ff5c36;
+  color: #fff; }
+
+spam {
+  font-size: 20px;
+  letter-spacing: 5px; }
+
+h2 {
+  margin: 0; }
+
+.title-h2 {
+  font-size: 50px;
+  font-family: "OpenSans";
+  color: #6e6e6e;
+  line-height: 0.915;
+  text-align: center; }
+
+.title-orange {
+  color: #ff5c36; }
+
+.subtitle {
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: rgba(65, 65, 65, 0.702);
+  line-height: 1.5;
+  text-align: center; }
 
 .logot-menu {
   width: 100%;
@@ -464,6 +478,13 @@ img {
 #services-slide11, #services-slide21 {
   display: block; }
 
+.ui-ux-parena {
+  width: 100%;
+  height: 350px; }
+
+.ui-ux-parena-hover {
+  display: none; }
+
 .star {
   width: 12px;
   height: 12px; }
@@ -580,6 +601,9 @@ img {
   font-weight: normal;
   font-style: italic; }
 
+.section-logo {
+  padding: 75px 0 100px 0; }
+
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -595,7 +619,7 @@ img {
 
 footer {
   background-color: #f7f7f7;
-  padding: 50px  0;
+  padding: 45px 0 50px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -610,7 +634,7 @@ footer {
 
 .footer-social-box {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
