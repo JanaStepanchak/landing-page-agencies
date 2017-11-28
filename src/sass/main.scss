@@ -1,8 +1,5 @@
 @import "base/_variables";
-@import "base/_base";
-@import "base/_mixines";
 @import "base/_fonts";
-@import "base/_keyframes";
 @import "normalize";
 @import "modules/_header";
 @import "modules/_work-procces";
@@ -11,4 +8,5 @@
 @import "modules/_team-chinen-skills";
 @import "modules/_client-said";
 @import "modules/_logo";
+@import "base/_base";
 @import "modules/_footer";

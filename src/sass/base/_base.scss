@@ -1,77 +1,124 @@
 body {
-	margin: 0;
-	font-family: sourceSansPro, openSans, Tahoma, Geneva, sans-serif;
+    margin: 0;
+    font-family: sourceSansPro, openSans, Tahoma, Geneva, sans-serif;
 }
 
-header,
+ header,
 section,
 footer {
-	display: block;
-	padding:0px 5.5%;
-	background: $colorWhite;
+    width: 100%;
+    padding: 145px 0 170px 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: $colorWhite;
 }
-header{
-padding: 80px 5.5%;
+
+header {
+    padding-top: 80px;
+    background: $colorBackground;
 }
-section{margin-bottom: 170px;}
+
+
 .work-procces-box,
 .featured-works-box,
 .team-chinen-skills-box,
 .services-box {
-	display: flex;
-	justify-content: space-around;
-	align-items: flex-start;
-	flex-wrap: wrap;
-	font-family: "OpenSans";
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: "OpenSans";
 }
 
-.work-procces-box{padding-bottom: 25px;}
+.work-procces-box {
+    padding-bottom: 25px;
+}
 
-.section-title{
-margin: 145px 0 100px 0;}
+.section-title {
+    margin: 145px 0 100px 0;
+}
 
 .know-more {
-	width: 230px;
-	height: 55px;
-	background-color: $colorWhite;
-	border-radius: 25px;
-	font-size: 16px;
-	font-family: "OpenSans";
-	color: $colorTransparentBlack75;
-	line-height: 2.563;
-	text-align: center;
-	box-shadow: 0px 0px 35px 0px $colorTransparentGray20;
+//    width: 230px;
+    height: 55px;
+    background-color: $colorWhite;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: $colorTransparentBlack75;
+    line-height: 2.563;
+    text-align: center;
+    box-shadow: 0px 0px 35px 0px $colorTransparentGray20;
 }
 
 .know-more:hover {
-	background: $backColorOR;
-   color: $colorWhite;
+    background: $backColorOR;
+    color: $colorWhite;
 }
 
 spam {
-	font-size: 20px;
-	letter-spacing: 5px
+    font-size: 20px;
+    letter-spacing: 5px
 }
 
-h2{
-margin: 0;}
+h2 {
+    margin: 0;
+}
 
 .title-h2 {
-	font-size: 50px;
-	font-family: "OpenSans";
-	color: $colorTransparentBlack75;
-	line-height: 0.915;
-	text-align: center;
+    font-size: 50px;
+    font-family: "OpenSans";
+    color: $colorTransparentBlack75;
+    line-height: 0.915;
+    text-align: center;
 }
 
 .title-orange {
-	color: $backColorOR;
+    color: $backColorOR;
 }
 
 .subtitle {
-	font-size: 16px;
-	font-family: "OpenSans";
-	color: $colorTranGray70;
-	line-height: 1.5;
-	text-align: center;
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: $colorTranGray70;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+
+
+
+
+
+//@media screen and (min-width: 480px) {
+//  form{
+//    width: 100%;
+//    }
+//}
+
+
+//@media screen and (min-width: 768px) {}
+//
+@media screen and (max-width: 960px) {
+    .services-blok1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    
+	body{
+	 display: flex;
+		justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+	}
+	
+	.wrapper{
+		width:1439px;}
+
 }

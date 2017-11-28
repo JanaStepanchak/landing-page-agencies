@@ -185,6 +185,6 @@ setInterval(getE('services-switch-r').onclick = function () {
 
 
 
-for(var i=1;i<18;i=i+2){
+for(var i=1;i<6;i=i+2){
 document.querySelectorAll('section')[i].style.background ='#f5f5f5';
 }
