@@ -1,66 +1,60 @@
 .work-procces-blok {
-	width: 23%;
-	padding-bottom: 3%;
-	box-shadow: 0px 0px 35px 0px $colorTransparentGray20;
-	display: flex;
-	flex-direction: column;
-	position: relative;
+    width: 23%;
+    padding-bottom: 35px;
+    box-shadow: 0px 0px 35px 0px $colorTransparentGray20;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 .work-procces-div {
-	width: 90%;
-	display: block;
+    width: 90%;
+    display: block;
 }
 
 .work-procces-div2 {
-	width: 100%;
-	//padding: 0 10%;
-	position: relative;
+    width: 100%;
+    //padding: 0 10%;
+    position: relative;
 }
 
 .blok-background1 {
-	background-color: $colorLightBlue;
+    background-color: $colorLightBlue;
 }
 
 .blok-background2 {
-	background-color: $colorViolet;
+    background-color: $colorViolet;
 }
 
 .blok-background3 {
-	background-color: $colorBlue;
+    background-color: $colorBlue;
 }
 
 .blok-background4 {
-	background-color: $colorTerracotta;
+    background-color: $colorTerracotta;
 }
 
 .work-procces-icon {
-	font-size: 50px;
-	font-family: "FontAwesome";
-	color: $colorWhite;
-	line-height: 0.16;
-	text-align: center;
+    font-size: 50px;
+    font-family: "FontAwesome";
+    color: $colorWhite;
+    line-height: 0.16;
+    text-align: center;
 }
 
 .work-procces-h3 {
-	font-size: 20px;
-	font-family: "OpenSans";
-	color: $colorWhite;
-	line-height: 2.1;
-	text-align: center;
+    font-size: 20px;
+    font-family: "OpenSans";
+    color: $colorWhite;
+    line-height: 2.1;
+    text-align: center;
 }
 
 .work-procces-span {
-	margin: 0 5%;
-	font-size: 15px;
-	font-family: "OpenSans";
-	color: $colorWhite;
-	line-height: 1.467;
-	text-align: center;
-}
-
-.work-procces-know-more {
-	width: 80%;
-	margin: 10px 10%;
-	position: absolute;
+    margin: 0 5%;
+    font-size: 15px;
+    font-family: "OpenSans";
+    color: $colorWhite;
+    line-height: 1.467;
+    text-align: center;
 }
