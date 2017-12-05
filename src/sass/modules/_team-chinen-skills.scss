@@ -6,11 +6,11 @@
     text-align: center;
     position: absolute;
     bottom: -25px;
-    display: none;
+//    display: block;
 }
 
 .ui-ux-parena-hover {
-    //    display: none;
+//    display: none;
     width: 360px;
     height: 445px;
     margin-bottom: 30px;
@@ -26,7 +26,7 @@
     height: 445px;
     margin-bottom: 30px;
     text-align: center;
-    background: #ff0;
+//    background: #ff0;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -88,16 +88,13 @@
 }
 
 .skills-ui {
-//    width: 80%;
     border: solid 2px #ff6e47;
 }
 
 .skills-english {
-//    width: 70%;
     border: solid 2px #ff6e47;
 }
 
 .skills-communication {
-//    width: 85%;
     border: solid 2px #ff6e47;
 }
