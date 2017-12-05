@@ -1,13 +1,103 @@
-.ui-ux-parena{
-width: 100%;
-height: 350px;}
-
-
-.ui-ux-parena-hover{
-display: none;
+.ui-ux-parena {
+    width: 260px;
+    height: 95px;
+    background: $colorWhite;
+    font-family: "Open Sans";
+    text-align: center;
+    position: absolute;
+    bottom: -25px;
+    display: none;
 }
 
+.ui-ux-parena-hover {
+    //    display: none;
+    width: 360px;
+    height: 445px;
+    margin-bottom: 30px;
+    background: rgba(255, 243, 240, 0.5);
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
 
-.w{
-width: 360px;
-height: 445px;}
+.team-chinen-skills-blok {
+    width: 360px;
+    height: 445px;
+    margin-bottom: 30px;
+    text-align: center;
+    background: #ff0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.ui-ux-name {
+    display: block;
+    width: 100%;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.702);
+}
+
+.ui-ux-par {
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.ui-ux-box-icon {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.ui-ux-social {
+    display: inline;
+    font-size: 16px;
+    margin: 0 9px;
+    font-family: "FontAwesome";
+    color: rgba(255, 243, 240, 0.302);
+    text-align: center;
+}
+
+.ui-ux-par-hover {
+    font-size: 16px;
+    color: rgba(255, 114, 76, 0.902);
+}
+
+.ui-ux-name-hover {
+    margin: 0;
+    color: rgba(32, 32, 32, 0.851);
+}
+
+.skills-box {
+    width: 100%;
+    font-size: 10.83px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 80px;
+}
+
+.skills{
+    width: 42%;
+    height: 4px;
+    margin: 0 29%;
+    background: #707070;
+}
+
+.skills-ui {
+//    width: 80%;
+    border: solid 2px #ff6e47;
+}
+
+.skills-english {
+//    width: 70%;
+    border: solid 2px #ff6e47;
+}
+
+.skills-communication {
+//    width: 85%;
+    border: solid 2px #ff6e47;
+}
