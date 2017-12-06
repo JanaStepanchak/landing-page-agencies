@@ -45,7 +45,6 @@ document.querySelectorAll('.services-icon')[3].onclick = function () {
         }
     }
 };
-
 var click = 1;
 var check = 0;
 getE('services-switch1').onclick = function () {
@@ -182,20 +181,13 @@ setInterval(getE('services-switch-r').onclick = function () {
     }
     check = 0
 }, 5000);
-
-
-
 for (var i = 1; i < 6; i = i + 2) {
     document.querySelectorAll('section')[i].style.background = '#f5f5f5';
 }
-
-
 for (var i = 1; i <= 3; i++) {
     document.querySelectorAll('.team-chinen-skills-blok')[i - 1].style.background = "url(images/photo0" + i + ".svg)";
 }
-
 var obj = {};
-
 for (var i = 0; i < 3; i++) {
     obj["designer" + i] = {
         'ui': 90 - i * 8 + '%',
@@ -203,84 +195,32 @@ for (var i = 0; i < 3; i++) {
         'communication': 95 - i * 5 + '%'
     }
 }
-
 for (var i = 0; i < 3; i++) {
     document.querySelectorAll('.skills-ui')[i].style.width = obj["designer" + i].ui;
     document.querySelectorAll('.skills-english')[i].style.width = obj["designer" + i].english;
     document.querySelectorAll('.skills-communication')[i].style.width = obj["designer" + i].communication;
     document.querySelectorAll('.ui-ux-parena-hover')[i].style.display = 'none';
 }
-
-
-
 document.querySelectorAll('.team-chinen-skills-blok')[0].onmouseover = function () {
     var j = 0;
     document.querySelectorAll('.ui-ux-parena')[j].style.display = 'none';
     document.querySelectorAll('.ui-ux-parena-hover')[j].style.display = 'flex';
-    for (var i = 0; i < 3; i++) {
-        if (i != j) {
-            document.querySelectorAll('.ui-ux-parena')[i].style.display = 'block';
-            document.querySelectorAll('.ui-ux-parena-hover')[i].style.display = 'none';
-        }
-    }
 }
-
-
-
-
-
-
 document.querySelectorAll('.team-chinen-skills-blok')[1].onmouseover = function () {
     var j = 1;
     document.querySelectorAll('.ui-ux-parena')[j].style.display = 'none';
     document.querySelectorAll('.ui-ux-parena-hover')[j].style.display = 'flex';
-    for (var i = 0; i < 3; i++) {
-        if (i != j) {
-            document.querySelectorAll('.ui-ux-parena')[i].style.display = 'block';
-            document.querySelectorAll('.ui-ux-parena-hover')[i].style.display = 'none';
-        }
-    }
 }
-
 document.querySelectorAll('.team-chinen-skills-blok')[2].onmouseover = function () {
     var j = 2;
     document.querySelectorAll('.ui-ux-parena')[j].style.display = 'none';
     document.querySelectorAll('.ui-ux-parena-hover')[j].style.display = 'flex';
-    for (var i = 0; i < 3; i++) {
-        if (i != j) {
-            document.querySelectorAll('.ui-ux-parena')[i].style.display = 'block';
-            document.querySelectorAll('.ui-ux-parena-hover')[i].style.display = 'none';
+}
+for (var i = 0; i < 3; i++) {
+    document.querySelectorAll('.team-chinen-skills-blok')[i].onmouseout = function () {
+        for (var j = 0; j < 3; j++) {
+            document.querySelectorAll('.ui-ux-parena')[j].style.display = 'block';
+            document.querySelectorAll('.ui-ux-parena-hover')[j].style.display = 'none';
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//for(var j=0;j<3;j++){
-//
-//document.querySelectorAll('.team-chinen-skills-blok')[j].onmouseover = function () {
-//    if(this.style.background== 'url("images/photo03.svg")'){}
-//}
-//}
