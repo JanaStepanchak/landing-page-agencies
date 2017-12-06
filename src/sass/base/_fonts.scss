@@ -1,12 +1,14 @@
 @font-face {
-    font-family: 'openSans';
-    src: url('../fonts/OpenSans.ttf'),
-         url('../fonts/OpenSans.woff2') format('woff2'),
-         url('../fonts/OpenSans.woff') format('woff');
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans.ttf'), url('../fonts/OpenSans.woff2') format('woff2'), url('../fonts/OpenSans.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('../fonts/sourcesanspro.ttf'), url('../fonts/sourcesanspro.woff2') format('woff2'), url('../fonts/sourcesanspro.woff') format('woff');
 }
 
 @font-face {
     font-family: 'FontAwesome';
-    src: url('../fonts/FontAwesome.ttf'),
-         url('../fonts/fontawesome-webfont.woff') format('woff');
+    src: url('../fonts/FontAwesome.ttf'), url('../fonts/fontawesome-webfont.woff') format('woff');
 }

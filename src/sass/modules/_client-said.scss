@@ -1,106 +1,115 @@
 .star {
-	width: 12px;
-	height: 12px;
+    width: 12px;
+    height: 12px;
 }
 
-.clients-said-star{
-width: 100%;
-display: flex;
-justify-content: center;
+.clients-said-star {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .clients-said-rectangle {
-	width: 48%;
-	height: 265px;
-	background-color: $colorWhite;
-	box-shadow: 0px 0px 35px 0px $colorTransparentGray20;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
+    width: 48%;
+    height: 265px;
+    background-color: $colorWhite;
+    box-shadow: 0px 0px 35px 0px $colorTransparentGray20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.clients-said-box{
-	margin: 140px 50px 0px 50px;
+.clients-said-box {
+    margin: 140px 50px 0px 50px;
     position: relative;
-	font-size: 17px;
-  font-family: "Source Sans Pro";
-  color: rgba(0, 0, 0, 0.702);
-  line-height: 1.588;
-  text-align: center;
+    font-size: 17px;
+    font-family: "SourceSansPro";
+    color: rgba(0, 0, 0, 0.702);
+    line-height: 1.588;
+    text-align: center;
 }
 
-#services-switch-l, #services-switch-r{
-	width: 50px;
-	height: 50px;
-	border-radius: 50%;
-	font-size: 25px;
-	line-height: 0.1;
-	background-color: $colorWhite;
-	box-shadow: 0px 0px 35px 0px $colorTransparentGray20;
-	color: $colorTransparentBlack75;
-	position: absolute;
+#services-switch-l,
+#services-switch-r {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 0.1;
+    background-color: $colorWhite;
+    box-shadow: 0px 0px 35px 0px $colorTransparentGray20;
+    color: $colorTransparentBlack75;
+    position: absolute;
     top: 108px;
-	text-align: center;
+    text-align: center;
 }
-#services-switch-l:hover, #services-switch-r:hover{
-	background-color: $colorOR08;
+
+#services-switch-l:hover,
+#services-switch-r:hover {
+    background-color: $colorOR08;
     color: $colorWhite;
 }
-#services-switch-l{
+
+#services-switch-l {
     left: -25px;
 }
-#services-switch-r{
-   right: -25px; 
+
+#services-switch-r {
+    right: -25px;
 }
 
-
-#clients-said-slide1{
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
+#clients-said-slide1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
-#clients-said-slide2, #clients-said-slide3{
-display: none;
+#clients-said-slide2,
+#clients-said-slide3 {
+    display: none;
 }
 
-
-.clients-said-slide{
-width: 100%;
-	 padding-top: 50px;
-	display: flex;
-	justify-content: center;
+.clients-said-slide {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
-#services-switch1, #services-switch2, #services-switch3 {
- width: 20px;
-	height: 5px;
-	margin: 0 4px;
-	border-radius: 2px;
-	background-color: $colorGray;
-}
-#services-switch1{
-background-color: $colorOR08;
-}
-
-.clients-said-photo{
-width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	background-color: $colorWhite;
-	box-shadow: 0px 0px 35px 0px $colorTransparentGray20;
-	position: absolute;
-	top: -55px;
-	
+#services-switch1,
+#services-switch2,
+#services-switch3 {
+    width: 20px;
+    height: 5px;
+    margin: 0 4px;
+    border-radius: 2px;
+    background-color: $colorGray;
 }
 
-.clients-said-p{
-margin: 95px 50px 0 50px;
- }
-.fatty{
-font-weight: 900;
+#services-switch1 {
+    background-color: $colorOR08;
 }
-.cursive{
-	font-weight: normal;
-font-style: italic;}
+
+.clients-said-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: $colorWhite;
+    box-shadow: 0px 0px 35px 0px $colorTransparentGray20;
+    position: absolute;
+    top: -55px;
+}
+
+.clients-said-p {
+    margin: 95px 50px 0 50px;
+}
+
+.fatty {
+    font-weight: 900;
+}
+
+.cursive {
+    font-weight: normal;
+    font-style: italic;
+}

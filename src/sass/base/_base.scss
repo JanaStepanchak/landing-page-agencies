@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: sourceSansPro, openSans, Tahoma, Geneva, sans-serif;
+    font-family: sourceSansPro, OpenSans, Tahoma, Geneva, FontAwesome;
 }
 
 header,
@@ -8,6 +8,7 @@ section,
 footer {
     width: 100%;
     padding: 145px 0 170px 0;
+    font-family:"OpenSans";
     display: flex;
     justify-content: center;
     align-content: center;
